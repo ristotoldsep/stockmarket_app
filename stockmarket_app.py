@@ -3,7 +3,7 @@ import time
 
 ticker = "TSLA"
 
-api_key = "e0284e629a65479eb7f9ee7242f46155"
+api_key = "<api key>" #api_key from twelvedata
 
 def get_stock_price(ticker_symbol, apikey):
     url = f"https://api.twelvedata.com/price?symbol={ticker_symbol}&apikey={apikey}" #f = format url
